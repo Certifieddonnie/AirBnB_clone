@@ -61,14 +61,14 @@ section.filters button:hover {
 	line-height: 10px;
 	margin: 20px auto;
 }
-.popover h2 {
+.popover li h2{
 	font-size: 16px;
 }
 .locations:hover .popover,
 .amenities:hover .popover {
 	display: block;
 }
-li {
+.popover li {
 	list-style-type: none;
 	margin-top: 10px;
 	margin-bottom: 10px;
