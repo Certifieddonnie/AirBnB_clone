@@ -73,10 +73,14 @@ div.max_guest {
 }
 section.places article div.amenities {
 	margin-top: 40px;
+	width: 30%;
+	line-height: 30px;
+	padding-top: -10%;
 }
 section.places article div.amenities h2 {
 	font-size: 16px;
 	border-bottom: 1px solid #DDDDDD;
+	text-align: left;
 }
 .tv{
 	list-style: none;
@@ -213,4 +217,29 @@ section.places article div.amenities h2 {
 	list-style: none;
 	line-height: 30px;
 	text-indent: 10px;
+}
+.reviews {
+	margin-top: 40px;
+}
+.reviews h2.views {
+	margin-top: 500px;
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	width: 100%;
+	height: 100%;
+	line-height: 30px;
+	text-align: justify;
+}
+li.review_item {
+	list-style: none;
+}
+h3.item {
+	font-size: 14px;
+	text-align: left;
+	margin-left: -40px;
+}
+li.review_item p {
+	text-align: left;
+	margin-left: -40px;
+	margin-top: -10px;
 }
